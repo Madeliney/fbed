@@ -1,3 +1,4 @@
+*.oracle.com
 skycity.top
 themoviedb.org
 epicgames.com
