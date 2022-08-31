@@ -1,4 +1,5 @@
-*.oracle.com
+tencent.com
+oracle.com
 skycity.top
 themoviedb.org
 epicgames.com
