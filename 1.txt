@@ -1,3 +1,5 @@
+pp.ua
+*.pp.ua
 huatools.com
 67tool.com
 ide.goorm.io
