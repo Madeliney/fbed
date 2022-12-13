@@ -1,3 +1,5 @@
+acfcf.me
+*.acfcf.me
 mona-uranai.com
 pp.ua
 *.pp.ua
