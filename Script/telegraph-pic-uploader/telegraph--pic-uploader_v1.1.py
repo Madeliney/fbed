@@ -219,7 +219,7 @@ while (1):
             response = telegraph.create_page(
                 title= biaoti,
                 html_content= html_text + tmp_img + html_imgs,
-                author_name = 'Kris wu',
+                author_name = 'patty',
                 author_url='',
             )
             print(response['url'])
