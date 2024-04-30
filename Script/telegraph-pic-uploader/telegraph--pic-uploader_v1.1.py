@@ -187,11 +187,11 @@ myproxies = {
 }
 
 #set your own if you need to manage and edit your artical after pubish it 
-token = "c232axadd5sdfg83993bb34567fe9c803c08e30112345"      
+token = "e5373ab5cad090e8acf73cf29e653fd70dacf0f1a11bbc7972c384729e0e"      
 
 telegraph = Telegraph(access_token=token)
 telegraph._telegraph.session.proxies = {'https':'socks5h://localhost:2080'}
-telegraph.create_account(short_name= 'Kris', author_name='Kris wu', author_url='', replace_token=True)
+#telegraph.create_account(short_name= 'Kris', author_name='Kris wu', author_url='', replace_token=True)
 
 #you can set successly uploaded img labels here if your task fail
 #the img labels are located in the root directory ,in file : "path.txt"
