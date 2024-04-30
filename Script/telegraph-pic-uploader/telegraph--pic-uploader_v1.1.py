@@ -180,17 +180,17 @@ def bianli_pics(path):
     return pics_html
 
 
-proxy = '127.0.0.1:7890'
+proxy = '127.0.0.1:2080'
 myproxies = {
     "http": "http://%(proxy)s/" % {'proxy': proxy},
     "https": "http://%(proxy)s/" % {'proxy': proxy}
 }
 
 #set your own if you need to manage and edit your artical after pubish it 
-token = "cd388846d981d689bb5ac5fh5sdfg83993bb34567fe9c803c08e30112345"      
+token = "c232axadd5sdfg83993bb34567fe9c803c08e30112345"      
 
 telegraph = Telegraph(access_token=token)
-telegraph._telegraph.session.proxies = {'https':'socks5h://localhost:7890'}
+telegraph._telegraph.session.proxies = {'https':'socks5h://localhost:2080'}
 telegraph.create_account(short_name= 'Kris', author_name='Kris wu', author_url='', replace_token=True)
 
 #you can set successly uploaded img labels here if your task fail
